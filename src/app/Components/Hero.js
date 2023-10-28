@@ -10,11 +10,11 @@ const Hero = () => {
             <h1 className="text-7xl font-bold tracking-normal mt-4">Master your life <br /> by mastering <br /> emotions </h1>
 
             <div className="flex items-center gap-8 mt-10">
-                <div className="bg-black text-white flex items-center gap-2 rounded-md px-2 py-2 cursor-pointer">
-                    <Image src={appleIcon} alt="appleIcon" width={40} height={40}/>
+                <div className="bg-black text-white flex items-center gap-2 rounded-md px-3 py-1 cursor-pointer">
+                    <Image src={appleIcon} alt="appleIcon" width={30} height={30}/>
                     <div className="items-start">
-                        <p className="text-xs">Download on the</p>
-                        <h2 className="text-xl">App Store</h2>
+                        <p className="text-xs tracking-wide">Download on the</p>
+                        <h2 className="text-xl tracking-wide">App Store</h2>
                     </div>
                 </div>
 
