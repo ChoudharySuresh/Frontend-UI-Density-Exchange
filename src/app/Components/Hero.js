@@ -1,8 +1,11 @@
+"use client";
 import Image from "next/image"
 import appleIcon from "../../../public/Images/AppleLogo.png";
 import uiScreen from "@/../../public/Images/mobileScreen.png"
 import { BsFillStarFill } from "react-icons/bs";
+
 const Hero = () => {
+    
   return (
     <header className="bg-[#ddd6fe] p-6 mx-10 rounded-2xl flex items-center justify-between">
         <div>
