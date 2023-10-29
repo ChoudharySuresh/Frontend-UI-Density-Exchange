@@ -18,6 +18,8 @@ const Hero = () => {
                     </div>
                 </div>
 
+                
+
                 <div>
                     <div className="flex items-center gap-3">
                         <BsFillStarFill color="yellow" size={"1.3rem"}/>
